@@ -19,6 +19,7 @@
 		A1000010 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010 /* EmptyStateView.swift */; };
 		A1000011 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011 /* ImageProcessor.swift */; };
 		A1000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000012 /* Assets.xcassets */; };
+		A1000013 /* ImageCompare.icon in Resources */ = {isa = PBXBuildFile; fileRef = A2000013 /* ImageCompare.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A2000010 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		A2000011 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		A2000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000013 /* ImageCompare.icon */ = {isa = PBXFileReference; lastKnownFileType = com.apple.iconcomposer.icon; path = ImageCompare.icon; sourceTree = "<group>"; };
 		A3000001 /* ImageCompare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCompare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 		A5000100 = {
 			isa = PBXGroup;
 			children = (
+				A2000013 /* ImageCompare.icon */,
 				A5000001 /* ImageCompare */,
 				A5000099 /* Products */,
 			);
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1000013 /* ImageCompare.icon in Resources */,
 				A1000012 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,7 +323,7 @@
 		A8000005 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ImageCompare;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ImageCompare/ImageCompare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,7 +348,7 @@
 		A8000006 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ImageCompare;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ImageCompare/ImageCompare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
